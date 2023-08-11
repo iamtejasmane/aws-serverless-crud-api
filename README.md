@@ -283,3 +283,37 @@ You create an integration to connect a route to backend resources. For this exam
    ```
 
 ### Congratulation! You have completed the project.
+
+## Clean Up
+
+### To delete a DynamoDB table
+
+1. Open the DynamoDB console at https://console.aws.amazon.com/dynamodb/.
+2. Select your table.
+3. Choose **Delete table**.
+4. Confirm your choice, and choose **Delete**.
+
+### To delete an HTTP API
+
+1. Sign in to the API Gateway console at https://console.aws.amazon.com/apigateway.
+2. On the APIs page, select an API. Choose **Actions**, and then choose **Delete**.
+3. Choose **Delete**.
+
+### To delete a Lambda function
+
+1. Sign in to the Lambda console at https://console.aws.amazon.com/lambda.
+2. On the Functions page, select a function. Choose **Actions**, and then choose **Delete**.
+3. Choose **Delete**.
+
+### To delete a Lambda function's log group
+
+1. In the Amazon **CloudWatch** console, open the Log groups page.
+2. On the **Log groups** page, select the function's log group `(/aws/lambda/http-crud-api-lambda)`. Choose Actions, and then choose **Delete** log group.
+3. Choose **Delete**.
+
+### To delete a Lambda function's execution role
+
+1. In the AWS Identity and Access Management console, open the **Roles** page.
+2. Select the function's role, for example, `http-crud-api-project-role`.
+3. Choose **Delete role**.
+4. Choose Yes, delete.
